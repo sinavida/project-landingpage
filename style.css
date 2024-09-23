@@ -1,56 +1,89 @@
-.body{
-    text-align: center;
-}
-img{
-    max-width: 100%;
-    max-height: 100%;
+body{
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: black;
 }
 .header{
-    background-color: #1f2937;
-    color: white;
     display: flex;
-    justify-content: space-around;
-    gap: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 .links{
     display: flex;
-    gap: 32px;
+    gap: 20px;
 }
 .logo{
     font-size: 24px;
     color: #f9faf8;
 }
-
-.middle-top{
+.hero{
     display: flex;
-
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+    padding: 100px;
+    height: fit-content;
+}
+.hero-info{
+    text-align: start;
+}
+h1{
+    font-size: 48px;
+    margin: 0;
+    color: #f9faf8;
+    font-weight: 900;
+    width: 400px;
+}
+p{
+    font-size: 18px;
+    margin: 0;
+    color: #e5e7eb;
+    width: 400px;
 }
 
-
-button{
-    background-color: #2882f6;
-    max-width: fit-content;
- }
- .random-info{
+.hero-img{
+    display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+    width: 500px;
+    height: 220px
+}
+button{
+    width: 120px;
+    height: 40px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10%;
+}
+.middle{
+    flex-direction: column;
     display: flex;
-    background-color: white;
-    color: black;
- }
-
- .content{  
-    justify-content: space-around;
-    color: black;
+    background-color: #e5e7eb;
+    height: 400px;
+    width: 100%;
+    
+}
+.mtitle{
     display: flex;
- }
-
- .info{
-    text-align: center;
-    width: 100px;
- }
-
- .footer{
-    background-color: #1f2937;
-    color: white;
- }
-
+    justify-content: center;
+    align-items: flex-start;
+}
+.info{
+    display: flex;
+    height: 100px;
+    width: 100px
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
